@@ -15,8 +15,13 @@ def main():
     #    least 3 words in it
     # your code below here
 
+    s1 = "My name is Riley"
+    s2 = input("Enter a string of at least 3 words: ")
+
     # print both strings
 
+    print(s1)
+    print(s2)
 
     '''
     - element access
@@ -32,6 +37,9 @@ def main():
     # the character
     # your code below here
 
+    
+    for i in range(2, len(s1)):
+        print(s1[i])
 
     '''
     - element insertion
@@ -84,4 +92,4 @@ def main():
     # print l
 
 
-    main()
+main()
