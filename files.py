@@ -118,6 +118,8 @@ def main():
     # to make the ouput look like what you see in a text editor?
 
     # your code here
+    for all in "sample.txt"():
+        print()
 
     # closing the file - uncomment the line below when you get here
     #infile.close()
