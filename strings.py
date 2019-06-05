@@ -36,10 +36,8 @@ def main():
     # the output line should contain the value of the index as well as 
     # the character
     # your code below here
-
-    
-    for i in range(2, len(s1)):
-        print(s1[i])
+    for i in range(1, len(s1), 3):
+        print("index:",i, ":", s1[i])
 
     '''
     - element insertion
