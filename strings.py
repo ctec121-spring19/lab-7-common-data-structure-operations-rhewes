@@ -49,11 +49,13 @@ def main():
     # the two slices
     #
     # form two new string variables using slicing on s1
-
+    slice1 = s1[:5]
+    slice2 = s2[5:]
     # create a third variable with the string you want to insert
-
+    s3 = " AAA"
     # form a new string named "snew" using concatenation and print snew.
-
+    snew = slice1 + s3 + slice2
+    print(snew)
 
     '''
     - element deletion
@@ -64,13 +66,15 @@ def main():
     # use the find() method to find the index of the word to delete.
     # see https://docs.python.org/3/library/stdtypes.html#string-methods
     # find the index of the beginning of the word you want to delte
-
+    index1 = snew.find("BBB")
     # use the find() method to find the word after the one you are deleting.
-
+    index2 = snew.find("my")
     # use the indexes to form two slices
-
+    slice1 = snew[:index1]
+    slice2 = snew[index2:]
     # use concatenation to form snew and print it
-
+    snew = slice1 + slice2
+    print(snew)
 
     '''
     - element updates
